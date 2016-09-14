@@ -7,10 +7,47 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    tools:context="com.example.admin.myapplication.MainActivity">
+    tools:context="com.example.admin.myapplication.MainActivity"
+    android:background="#B2FF59">
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Hello World!" />
+        android:text="wishing you a happy birthday, with love ."
+        android:textSize="39sp"
+
+
+        />
+
+    <ImageView
+
+        android:layout_width="wrap_content"
+        android:layout_height="500dp"
+        android:src="@drawable/vusani"
+        android:id="@+id/imageView"
+
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="much love,from Vusani"
+        android:textSize="24sp"
+        android:textColour="#FF5722"
+        android:layout_alignTop="@+id/imageView2"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/baloons"
+        android:layout_alignBottom="@+id/imageView"
+        android:layout_alignRight="@+id/imageView"
+        android:layout_alignEnd="@+id/imageView"
+        android:id="@+id/imageView2" />
+
+
+
+
 </RelativeLayout>
